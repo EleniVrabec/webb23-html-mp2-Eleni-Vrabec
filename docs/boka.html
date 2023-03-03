@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <!-- meta tagar för SEO -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinesisk restaurang i Malmö - JIANGNAN</title>
+    <meta
+      name="description"
+      content="Vi är en välkänd kinesisk restaurang som har funnits i centrala
+      Malmö, Mariedalsvägen 60. Från oss kan du förvänta dig
+      traditionell kinesisk mat tillagat med färska råvaror till bra
+      priser. Med fullständiga rättigheter kan du avnjuta en måltid med
+      dryck på plats. Vill du hellre ta med maten har vi takeaway eller
+      hemleverans via foodora för bekvämligheten. Varmt välkomna in!"
+    />
+    <meta
+      name="keywords"
+      content="kinesisk restaurang, Malmö, kinesisk mat, autentisk kinesisk mat, kinesisk matlagning"
+    />
+    <meta name="robots" content="index, follow" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- sociala medier icons -->
+    <script
+      src="https://kit.fontawesome.com/de8834d373.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+  </head>
+  <!-- Home page  -->
+  <body>
+    <header>
+      <div class="container-top-site">
+        <div class="top-site-content"> <!-- skickar direkt mail och direct ringer -->
+          <li>
+            <a href="mailto:jiangnan.jn@gmail.com" target="_blank"
+              ><i
+                class="fa-solid fa-envelope fa-beat style="
+                --fa-animation-duration:
+                2s;
+              >
+                jiangnan.jn@gmail.com</i
+              ></a
+            >
+          </li>
+          <li>
+            <a href="tel:040-91 57 90" target="_blank"
+              ><i
+                class="fa-sharp fa-solid fa-phone fa-beat"
+                --fa-animation-duration:
+                2s;
+              >
+                040-91 57 90</i
+              ></a
+            >
+          </li>
+        </div>
+      </div>
+
+      <div class="nav-bar">
+        <div class="logo">
+          <img
+            style="width: 200px; height: 200px"
+            src="bild/31.png"
+            alt="logo"
+          />
+        </div>
+
+        <div class="navbarlista">
+          <ul>
+            <li class="nav-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="menu.html">Meny</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="boka.html">Boka</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
+    <div id="wrapper-booksida">
+      <div class="form">
+        <div class="form-text">
+          <h1>
+            <span
+              ><img
+                style="height: 70px; width: 100px; padding-right: 1%"
+                src="bild/1.png"
+                alt="" /></span
+            >Boka! 
+          </h1>
+          
+        </div>
+        <div class="main-form">
+          <form action="">
+            <div>
+              <span>Ditt namn?</span>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Skriv ditt namn här"
+                required
+              />
+            </div>
+            <div>
+              <span>Din e-postaddress?</span>
+              <input
+                type="email"
+                name="name"
+                id="name"
+                placeholder="Skriv din e-post här"
+                required
+              />
+            </div>
+            <div>
+              <!-- this is the select option -->
+              <span>Antal gäster?</span>
+              <select name="gäster" id="gäster" required>
+                <option value="">antal gäster</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <div>
+              <span>Vilken tid?</span>
+              <input
+                type="text"
+                name="time"
+                id="time"
+                placeholder="Tid"
+                required
+              />
+            </div>
+            <div>
+              <span>Vilken datum?</span>
+              <input
+                type="date"
+                name="date"
+                id="date"
+                placeholder="Datum"
+                required
+              />
+            </div>
+            <div>
+              <span>Ditt telefonnummer?</span>
+              <input
+                type="number"
+                name="number"
+                id="number"
+                placeholder="Skriv ditt nummer här"
+                required
+              />
+            </div>
+            <div>
+              <span>Övriga onskemål?</span>
+              <select name="gäster" id="gäster" required>
+                <option value="">Special menu?</option>
+                <option value="1">Regular menu</option>
+                <option value="2">Vegetarisk menu</option>
+                <option value="3">Vegan menu</option>
+              </select>
+            </div>
+            <div>
+              <span>Alergier?</span>
+              <select name="alergier" id="alergier" required>
+                <option value="">Alergier?</option>
+                <option value="JA">Ja</option>
+                <option value="NEJ">Nej</option>
+              </select>
+            </div>
+
+            <div id="submit">
+              <input type="submit" value="BOKA" id="submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="copyright">© Copyright 2023 Restaurang Jiang Nan, Malmö <br>
+        Adress: Mariedalsvägen 60 <br>
+        Telefon: 040–91 57 90
+      </div>
+      <div class="sociala-medier">
+        <a href="http://" target="_blank" rel=""
+          ><i class="fa-brands fa-square-facebook fa-bounce"></i
+        ></a>
+
+        <a href="http://" target="_blank" rel=""
+          ><i class="fa-brands fa-square-instagram fa-bounce"></i>
+        </a>
+      </div>
+
+      <div class="contact">
+        Öppettider: <br />
+        Måndag STÄNGT <br />
+        Tisdag–Torsdag 11:30–21:00 <br />
+        Fredag 11:30–22:00 <br />
+        Lördag 12:00–22:00 <br />
+        Söndag 12:00–21:00 <br />
+      </div>
+    </footer>
+  </body>
+</html>
